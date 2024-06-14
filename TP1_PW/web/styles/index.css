@@ -1,0 +1,95 @@
+.img-produto {
+    width: 100%;
+    /* Ajusta a largura da imagem */
+    max-width: 450px;
+    /* Define a largura máxima */
+    height: auto;
+    /* Mantém a proporção da imagem */
+    display: block;
+    /* Centraliza a imagem dentro do container */
+    margin: 0 auto;
+    /* Centraliza a imagem horizontalmente */
+}
+
+.button-circle:hover {
+    background-color: white;
+    /* Fundo branco no hover */
+    color: black;
+    /* Ícone preto no hover */
+}
+
+.titulo {
+    font-size: 100px;
+    margin-bottom: 100px;
+}
+
+
+.button-circle {
+    width: 50px;
+    /* Largura inicial */
+    height: 50px;
+    /* Altura inicial */
+    border-radius: 50%;
+    /* Formato de círculo */
+    background-color: #000000;
+    /* Cor de fundo */
+    color: #fff;
+    /* Cor do texto */
+    border: none;
+    /* Sem borda */
+    cursor: pointer;
+    /* Cursor de apontar */
+    transition: all 0.3s ease;
+    /* Transição suave */
+    position: relative;
+    /* Posição relativa para posicionar o texto */
+}
+
+.button-circle:hover {
+    transform: translateX(-10px);
+    /* Deslizar para a esquerda */
+    width: 150px;
+    /* Largura estendida */
+    border-radius: 30px;
+    /* Bordas arredondadas */
+}
+
+.button-circle span {
+    display: none;
+    /* Oculta o texto por padrão */
+    position: absolute;
+    /* Posicionamento absoluto */
+    top: 50%;
+    /* Alinhamento vertical */
+    left: 70px;
+    /* Distância do botão */
+    transform: translateY(-50%);
+    /* Centralizar verticalmente */
+}
+
+.button-circle i {
+    position: absolute;
+    /* Posicionamento absoluto */
+    left: 10px;
+    /* Distância do ícone à esquerda */
+    top: 50%;
+    /* Alinhamento vertical */
+    transform: translateY(-50%);
+    /* Centralizar verticalmente */
+    transition: transform 0.3s ease;
+    /* Transição suave */
+}
+
+.button-circle:hover i {
+    transform: translateY(-50%) rotate(-360deg);
+    /* Gira o ícone para a esquerda */
+}
+
+.button-circle:hover span {
+    display: block;
+    /* Torna o texto visível */
+}
+
+  
+
+  
