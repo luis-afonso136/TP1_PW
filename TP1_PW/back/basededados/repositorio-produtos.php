@@ -13,7 +13,7 @@ function inserirProduto($produto)
         nome, 
         descricao, 
         preco, 
-        quantidade, 
+        quantidade,  
         categoria, 
         fornecedor,
         imagem) 
